@@ -1,9 +1,7 @@
 package quantum.userTransaction
 
 import co.paralleluniverse.fibers.Suspendable
-import com.quantum.contracts.KYCContract
 import com.quantum.contracts.UserContract
-import com.quantum.states.TokenBalance
 import com.quantum.states.UserIssueState
 import com.quantum.states.UserState
 import com.r3.corda.lib.tokens.contracts.types.TokenType

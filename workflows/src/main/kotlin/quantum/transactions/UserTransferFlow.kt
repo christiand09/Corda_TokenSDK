@@ -3,8 +3,6 @@ package quantum.transactions
 import co.paralleluniverse.fibers.Suspendable
 import com.quantum.contracts.KYCContract
 import com.quantum.contracts.KYCContract.Companion.KYC_CONTRACT_ID
-import com.quantum.contracts.UserIssueContract
-import com.quantum.contracts.UserIssueContract.Companion.USER_ISSUE_CONTRACT_ID
 import com.quantum.states.KYCState
 import com.quantum.states.TokenBalance
 import com.quantum.states.UserIssueState
@@ -21,7 +19,6 @@ import net.corda.core.node.services.queryBy
 import net.corda.core.node.services.vault.QueryCriteria
 import net.corda.core.transactions.SignedTransaction
 import net.corda.core.transactions.TransactionBuilder
-import java.lang.IllegalArgumentException
 
 @InitiatingFlow
 @StartableByRPC
